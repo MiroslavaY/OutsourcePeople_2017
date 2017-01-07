@@ -1,0 +1,31 @@
+.tabs {
+    border: 1px solid #898989;
+    width: 100%;
+}
+
+.tabs--labels {
+    text-align: center;
+    padding: 1.8rem 0;
+}
+
+.tabs--labels li {
+    display: inline-block;
+    margin-right: 1.5rem;
+}
+
+.tabs--labels li a {
+    padding: .8rem 1rem;
+    font-size: 1rem;
+    display: block;
+    color: #000;
+    text-decoration: none;
+}
+
+.tabs--labels li a.active {
+    border: 1px solid #898989;
+    border-radius: 6px;
+}
+
+.tabs--content {
+    padding: 0 1rem 3.4rem 1rem;
+}

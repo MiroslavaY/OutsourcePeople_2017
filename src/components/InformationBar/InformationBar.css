@@ -1,0 +1,17 @@
+.information-bar {
+    width: 100%;
+    height: 4.5rem;
+    background-color: #001f3f;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.information-bar > div {
+    text-align: center;
+    margin: auto 4rem;
+}
+
+.information-bar--amount{
+    font-size: 2.5rem;
+}
