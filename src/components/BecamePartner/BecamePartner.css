@@ -1,0 +1,17 @@
+.became-partner {
+    background-color: #326081;
+    display: flex;
+    padding: 2rem;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.became-partner--title {
+    font-size: 2rem;
+    color: #fff;
+    text-transform: uppercase;
+    margin-right: 4rem;
+}
+
+

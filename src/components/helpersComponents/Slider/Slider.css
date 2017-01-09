@@ -1,0 +1,75 @@
+.slider {
+    padding: 5rem 0;
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.slider-content {
+    width: 690px;
+    height: 200px;
+    border: 2px solid #599cd3;
+    margin: 0 .8rem;
+    display: flex;
+    color: #171717;
+}
+
+.slider-control--button {
+    background-color: rgba(0,0,0,0);
+    width: 78px;
+    height: 78px;
+    box-sizing: border-box;
+    color: #599cd3;
+    border: none;
+    font-size: 4rem;
+    font-weight: 100;
+    cursor: pointer;
+}
+
+.slider-control--button:hover{
+    background-color: #599bd5;
+    color: #fff; ;
+}
+
+.slider--photo-block {
+    padding: 1rem 2rem;
+    background-color: #e1e1e1;
+}
+
+.slider--feedback-block {
+    padding: 3rem 1rem 1rem;
+    overflow: scroll;
+}
+
+.slider--feedback-block,
+.slider--photo-block {
+    display: inline-block
+}
+
+.slider--person-img {
+    max-width: 125px;
+    text-align: center;
+}
+
+.slider--feedback-title {
+    color: #68a4d6;
+    text-transform: uppercase;
+    margin-bottom: .5rem;
+}
+
+.slider--person-info {
+    font-size: .7rem;
+    text-transform: uppercase;
+    margin-top: .7rem;
+    line-height: .9rem;
+}
+
+.slider--person-career {
+    text-transform: none;
+    font-style: italic;
+}
+
+.slider--feedback{
+    line-height: 1.3rem;
+}

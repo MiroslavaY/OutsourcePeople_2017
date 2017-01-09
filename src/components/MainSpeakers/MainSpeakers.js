@@ -1,6 +1,6 @@
 import React from 'react';
 import './MainSpeakers.css';
-import Title from './../SectionTitle/SectionTitle';
+import Title from '../helpersComponents/SectionTitle/SectionTitle';
 
 
 export default class MainSpeakers extends React.Component {

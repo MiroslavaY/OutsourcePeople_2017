@@ -29,3 +29,21 @@
 .callback {
     margin-left: 65px;
 }
+
+.logo-text {
+    text-transform: uppercase;
+    padding-bottom: 0;
+}
+
+.logo {
+    margin-right: 4rem;
+    text-align: left;
+}
+
+.logo-bottom-text {
+    text-transform: capitalize;
+    font-size: .4rem;
+    background-color: #61abe8;
+    color: #000;
+    padding: 1px;
+}

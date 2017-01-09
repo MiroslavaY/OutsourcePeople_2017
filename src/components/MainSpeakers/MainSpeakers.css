@@ -3,6 +3,7 @@
     margin: 0 auto 6.7rem auto;
     font-size: .8rem;
     line-height: 1.3;
+    text-align: center;
 }
 
 .main-speakers--info,
@@ -36,6 +37,7 @@
     padding: .5rem;
     opacity: 0;
     transition: opacity 500ms;
+    text-align: justify;
 }
 
 .main-speakers--info:hover {

@@ -1,0 +1,23 @@
+.meeting-person--info-block,
+.meeting-person--description {
+    display: inline-block;
+}
+
+.meeting-person--img {
+    width: 95px;
+    height: 95px;
+}
+
+.meeting-person--info-block {
+    display: inline-flex;
+    margin: 1rem;
+}
+
+.meeting-person--description > * {
+    margin: 0 0 .7rem .7rem;
+}
+
+.meeting-person--career{
+    font-weight: 100;
+    font-size: .7rem;
+}

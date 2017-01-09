@@ -1,6 +1,6 @@
 import React from 'react';
 import './CategoriesInformation.css';
-import Title from './../SectionTitle/SectionTitle';
+import Title from '../helpersComponents/SectionTitle/SectionTitle';
 import {categories} from './../../fixtures/categories';
 
 

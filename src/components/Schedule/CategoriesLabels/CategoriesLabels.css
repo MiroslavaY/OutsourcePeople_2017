@@ -1,0 +1,25 @@
+.category-label{
+    width: 225px;
+    display: inline-block;
+    text-align: center;
+    text-transform: uppercase;
+    margin-right: .5rem;
+}
+
+.category-label--name{
+    border-radius: 6px;
+    color: #fff;
+    font-size: .9rem;
+    height: 50px;
+    margin: auto;
+   line-height: 50px;
+}
+
+.category-label--location{
+    font-size: 1.1rem;
+    padding: 1rem .2rem;
+}
+
+.categories-labels--wrapper{
+    text-align: center;
+}

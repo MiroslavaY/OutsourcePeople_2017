@@ -1,15 +1,22 @@
 .multipurpose-button input {
-    font-size: .8rem;
+    font-size: 1rem;
     color: #fff;
     background-color: #ed1b24;
     outline: none;
     border: none;
     border-radius: 6px;
-    padding: .5rem .8rem;
 }
 
 .multipurpose-button input:hover,
 .multipurpose-button input:active {
     background-color: #d60d15;
     cursor: pointer;
+}
+
+.small{
+    padding: .5rem .8rem;
+}
+
+.large{
+    padding: .5rem 3rem;
 }

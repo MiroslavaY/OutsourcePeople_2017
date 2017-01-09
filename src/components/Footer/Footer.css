@@ -1,0 +1,42 @@
+.footer {
+    background-color: #27597a;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 0 5rem 0;
+    justify-content: center;
+
+}
+
+.footer--title {
+    font-size: .9rem;
+    color: #fff;
+    text-transform: uppercase;
+    margin-bottom: 1rem;
+}
+
+.footer--section {
+    width: 300px;
+    margin:5rem 2.5rem 0 0;
+}
+
+.footer--paragraph {
+    color: #fff;
+    margin-bottom: 1rem;
+}
+
+.footer--link,
+.footer--link:active,
+.footer--link:visited {
+    color: #69bae5;
+}
+
+.footer--payment-item {
+    display: inline-block;
+}
+
+.footer--email-input {
+    padding: .5rem 1rem;
+    border-radius: 6px;
+    border: none;
+    margin-bottom: 1rem;
+}

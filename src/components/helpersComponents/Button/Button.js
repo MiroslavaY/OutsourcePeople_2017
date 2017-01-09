@@ -3,15 +3,11 @@ import './Button.css';
 
 
 export default class Button extends React.Component {
-
-  constructor(props){
-    super(props);
-  }
-
   render() {
     return (
       <div className="multipurpose-button">
         <input
+          className={this.props.size ? this.props.size : 'small'}
           type="button"
           value={this.props.text}
           onClick={this.props.handler}

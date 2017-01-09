@@ -1,0 +1,17 @@
+.partners-category {
+    max-width: 980px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.partners-section{
+    padding-bottom: 3rem;
+}
+
+.partner-img {
+    filter: grayscale(100%);
+}
+
+.partner-img:hover{
+    filter: none;
+}
