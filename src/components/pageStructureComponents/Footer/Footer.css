@@ -42,6 +42,7 @@
 }
 
 .footer--email-input {
+    background-color: #fff;
     padding: .5rem 1rem;
     border-radius: 6px;
     border: none;

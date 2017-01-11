@@ -1,0 +1,28 @@
+.buy-record--section {
+    background-color: #3a6786;
+    padding: 3rem 0 1rem;
+    text-align: center;
+}
+
+.buy-record--title {
+    font-size: 2rem;
+    color: #fff;
+    text-transform: uppercase;
+    margin-right: 4rem;
+}
+
+.buy-record--current-price {
+    color: #ffc000;
+    font-size: 2.8rem;
+    padding: .6rem;
+}
+
+.buy-record--title,
+.buy-record--buy-info {
+    display: inline-block;
+}
+
+.buy-record--accordion{
+    max-width: 520px;
+    margin: 1rem auto;
+}

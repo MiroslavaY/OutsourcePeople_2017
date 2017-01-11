@@ -1,0 +1,15 @@
+.tickets-section {
+    text-align: center;
+    padding: 1rem 0 4rem 0;
+}
+
+.tickets-section__common-ordering {
+    margin: 1.5rem auto 1rem auto;
+    font-size: 1rem;
+}
+
+.tickets-section__payments-systems__img {
+    margin-left: 1rem;
+    max-width: 100px;
+    max-height: 50px;
+}

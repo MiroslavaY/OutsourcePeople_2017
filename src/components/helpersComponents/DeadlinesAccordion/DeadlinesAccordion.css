@@ -1,0 +1,79 @@
+/*   common */
+.accordion-closed {
+    opacity: 0;
+    height: 0;
+    animation: fadeOut 500ms ease-in-out;
+}
+
+.accordion-opened {
+    opacity: 1;
+    height: auto;
+    animation: fadeIn 600ms ease-in-out;
+}
+.deadlines-accordion--for-records thead,
+.deadlines-accordion--for-records tbody {
+    width: 100%;
+}
+
+.accordion--table tr{
+    margin-top: 1rem;
+    width: 100%;
+    display: flex;
+    align-content: center;
+}
+
+.accordion--table td{
+    min-width: 30%;
+}
+.accordion--table{
+    width: 100%;
+}
+/* records*/
+
+.deadlines-accordion--for-records {
+    font-family: AAvanteLtLight, sans-serif;
+    border: 2px solid #fff;
+    border-radius: 10px;
+    padding: 1.2rem 0;
+    color: #fff;
+    text-align: center;
+}
+
+.deadlines-accordion--title {
+    color: #ffc000;
+    cursor: pointer;
+    font-size: 1rem;
+}
+
+.deadlines-accordion--title span {
+    font-size: .65rem;
+    margin-left: .4rem;
+}
+
+.accordion--table--head{
+    text-transform: uppercase;
+    font-size: 1rem;
+
+}
+
+
+/*common*/
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes fadeOut {
+    from {
+        opacity: 1;
+        height: auto;
+    }
+    to {
+        opacity: 0;
+        height: 0;
+    }
+}

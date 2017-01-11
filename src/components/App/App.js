@@ -16,7 +16,9 @@ import ParticipantsFeedbacks from './../pageStructureComponents/ParticipantsFeed
 import SpeakersFeedbacks from './../pageStructureComponents/SpeakersFeedbacks/SpeakersFeedbacks';
 import ClosedMeetings from './../pageStructureComponents/ClosedMeetings/ClosedMeetings';
 import ExpertsTables from './../pageStructureComponents/ExpertsTables/ExpertsTables';
-import Organizers from '../pageStructureComponents/Organizers/Organizers';
+import Organizers from './../pageStructureComponents/Organizers/Organizers';
+import BuyRecord from './../pageStructureComponents/BuyRecord/BuyRecord';
+import Tickets from './../pageStructureComponents/Tickets/Tickets';
 
 
 export default class App extends React.Component {
@@ -30,6 +32,8 @@ export default class App extends React.Component {
         <EventsSection/>
         <CategoriesInformation/>
         <Schedule/>
+        <Tickets/>
+        <BuyRecord/>
         <ClosedMeetings/>
         <ExpertsTables/>
         <BecomeSpeaker/>
