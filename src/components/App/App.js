@@ -1,20 +1,22 @@
 import React from 'react';
 import './App.css';
-import PageHeader from './../PageHeader/PageHeader/PageHeader';
-import InformationBar from './../InformationBar/InformationBar';
-import MainSpeakers from './../MainSpeakers/MainSpeakers';
-import EventsSection from './../EventsSection/EventsSection';
-import CategoriesInformation from './../CategoriesInformation/CategoriesInformation';
-import Schedule from './../Schedule/Schedule/Schedule';
-import BecameSpeaker from './../BecameSpeaker/BecameSpeaker';
-import BecamePartner from '../BecamePartner/BecamePartner';
-import Footer from './../Footer/Footer';
-import Accommodation from './../Accommodation/Accommodation';
-import LastYear from './../LastYear/LastYear';
-import Partners from './../Partners/Partners';
-import ParticipantsFeedbacks from './../ParticipantsFeedbacks/ParticipantsFeedbacks';
-import SpeakersFeedbacks from './../SpeakersFeedbacks/SpeakersFeedbacks';
-import ClosedMeetings from './../ClosedMeetings/ClosedMeetings';
+import PageHeader from './../pageStructureComponents/PageHeader/PageHeader';
+import InformationBar from './../pageStructureComponents/InformationBar/InformationBar';
+import MainSpeakers from './../pageStructureComponents/MainSpeakers/MainSpeakers';
+import EventsSection from './../pageStructureComponents/EventsSection/EventsSection';
+import CategoriesInformation from './../pageStructureComponents/CategoriesInformation/CategoriesInformation';
+import Schedule from './../pageStructureComponents/Schedule/Schedule';
+import BecomeSpeaker from './../pageStructureComponents/BecomeSpeaker/BecameSpeaker';
+import BecomePartner from './../pageStructureComponents/BecomePartner/BecomePartner';
+import Footer from './../pageStructureComponents/Footer/Footer';
+import Accommodation from './../pageStructureComponents/Accommodation/Accommodation';
+import LastYear from './../pageStructureComponents/LastYear/LastYear';
+import Partners from './../pageStructureComponents/Partners/Partners';
+import ParticipantsFeedbacks from './../pageStructureComponents/ParticipantsFeedbacks/ParticipantsFeedbacks';
+import SpeakersFeedbacks from './../pageStructureComponents/SpeakersFeedbacks/SpeakersFeedbacks';
+import ClosedMeetings from './../pageStructureComponents/ClosedMeetings/ClosedMeetings';
+import ExpertsTables from './../pageStructureComponents/ExpertsTables/ExpertsTables';
+import Organizers from '../pageStructureComponents/Organizers/Organizers';
 
 
 export default class App extends React.Component {
@@ -29,12 +31,14 @@ export default class App extends React.Component {
         <CategoriesInformation/>
         <Schedule/>
         <ClosedMeetings/>
+        <ExpertsTables/>
+        <BecomeSpeaker/>
         <SpeakersFeedbacks/>
         <LastYear/>
         <ParticipantsFeedbacks/>
-        <BecameSpeaker/>
         <Partners/>
-        <BecamePartner/>
+        <Organizers/>
+        <BecomePartner/>
         <Accommodation/>
         <Footer/>
       </div>

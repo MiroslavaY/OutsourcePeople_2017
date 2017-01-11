@@ -1,0 +1,19 @@
+@font-face {
+    font-family: 'AAvanteBsExtraBold';
+    src: url('./../fonts/AAvanteBsExtraBold.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'AAvanteLtLight';
+    src: url('./../fonts/AAvanteLtLight.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'AAvanteTckMedium';
+    src: url('./../fonts/AAvanteTckMedium.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'ArvoBold';
+    src: url('./../fonts/ArvoBold.ttf') format('truetype');
+}

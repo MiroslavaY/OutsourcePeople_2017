@@ -1,0 +1,25 @@
+.organizers--zone-of-responsibility {
+    max-width: 435px;
+    display: inline-flex;
+    flex-wrap: wrap;
+    margin: auto 2.8rem 2.8rem .4rem;
+    text-align: left;
+}
+
+.organizers--zone-title{
+    width: 100%;
+    font-size: 1.4rem;
+    border-bottom: 1px solid #589cd4;
+    padding-bottom: .3rem;
+}
+
+.organizers--decorative-block{
+    width: 60px;
+    background-color: #589cd4;
+    height: 5px;
+}
+
+.organizers--zone-of-responsibility--content{
+    display: inline-flex;
+    flex-wrap: wrap;
+}

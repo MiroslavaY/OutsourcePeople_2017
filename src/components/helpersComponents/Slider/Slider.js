@@ -40,11 +40,12 @@ export default class Slider extends React.Component {
           className="slider-control--button"
           onClick={this.getPreviousSlide}
          >
-          &lt;
+          <p>&lt;</p>
         </button>
         <div className="slider-content">
          <figure className="slider--photo-block">
            <img
+             alt={currentSlide.name}
              className="slider--person-img"
              src={require(`./../../../fixtures/images/${currentSlide.img}`)}
            />
@@ -62,7 +63,8 @@ export default class Slider extends React.Component {
         <button
           className="slider-control--button"
           onClick={this.getNextSlide}
-        >&gt;
+        >
+          <p>&gt;</p>
         </button>
       </div>
     );

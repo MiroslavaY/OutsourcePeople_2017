@@ -1,0 +1,72 @@
+.last-year--section {
+    color: #fff;
+    background: #414851 url("./../../../images/last-year-bg.png") no-repeat;
+    background-size: cover;
+    flex-wrap: wrap;
+    padding: 4rem 0;
+}
+
+.last-year--title {
+    text-transform: uppercase;
+    font-size: 2rem;
+    margin-right: 2rem;
+    line-height: 2.5rem;
+}
+
+.last-year--video,
+.last-year--section {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.last-year--video {
+    height: 275px;
+    width: 430px;
+}
+
+.youtube-play-button {
+    cursor: pointer;
+    background-color: #d12222;
+    border: none;
+    outline: none;
+    border-radius: 50% / 10%;
+    font-size: 2em;
+    height: 3em;
+    margin: 20px auto;
+    padding: 0;
+    position: relative;
+    text-align: center;
+    text-indent: .1em;
+    transition: all 150ms ease-out;
+    width: 4em;
+}
+
+.youtube-play-button:hover {
+    background-color: #c41a1c;
+}
+
+.youtube-play-button::before {
+    background: inherit;
+    border-radius: 5% / 50%;
+    bottom: 9%;
+    content: ' ';
+    left: -5%;
+    position: absolute;
+    right: -5%;
+    top: 9%;
+}
+
+.youtube-play-button::after {
+    border-style: solid;
+    border-width: 1em 0 1em 1.7em;
+    border-color: rgba(0, 0, 0, 0) rgba(0, 0, 0, 0) rgba(0, 0, 0, 0) #fff;
+    content: ' ';
+    font-size: .75em;
+    height: 0;
+    margin: -1em 0 0 -0.75em;
+    top: 50%;
+    position: absolute;
+    width: 0;
+}
+

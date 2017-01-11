@@ -1,0 +1,43 @@
+.organizer-card {
+    max-width: 213px;
+    margin-top: 2rem;
+}
+
+.organizer-card--header {
+    display: inline-flex;
+}
+
+.organizer-card--person-contacts {
+    width: 100%;
+    margin-top: 1rem;
+    line-height: .8rem;
+}
+
+.organizer-card__img {
+    max-width: 70px;
+    max-height: 70px;
+}
+
+.organizer-card--person-name {
+    font-size: 1rem;
+    text-transform: uppercase;
+}
+
+.organizer-card--person-info {
+    padding-left: .8rem;
+}
+
+.organizer-card--person-phone {
+    padding-top: 1rem;
+}
+
+.organizer-card--person-phone,
+.organizer-card--person-contacts {
+    font-size: .7rem
+}
+
+.organizer-card__person-email {
+    color: #0040d2;
+    text-decoration: underline;
+}
+

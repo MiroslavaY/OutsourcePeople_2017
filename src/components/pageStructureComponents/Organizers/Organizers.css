@@ -1,0 +1,9 @@
+.organizers {
+    padding: .2rem 0 4rem;
+    background: url("../../../images/oranizers.png") no-repeat;
+    background-size: cover;
+}
+
+.organizers--content{
+    text-align: center;
+}

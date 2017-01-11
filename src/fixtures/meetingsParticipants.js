@@ -1,4 +1,4 @@
-export const expertsTable = [{
+export const expertsTables = [{
   time: '12:20',
   participants: [{
     name: 'Константин Курило',

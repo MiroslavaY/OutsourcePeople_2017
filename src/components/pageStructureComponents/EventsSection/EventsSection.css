@@ -1,0 +1,23 @@
+.expected-event-section {
+    background: #414851 url("./../../../images/expected-events-bg.png") no-repeat;
+    background-size: cover;
+    color: #fff;
+    text-align: center;
+    padding: 4.4rem 0  0;
+}
+
+.expected-event {
+    width: 215px;
+    display: inline-block;
+    margin-bottom: 4rem;
+}
+
+.expected-event--name{
+    margin-top: .9rem;
+}
+
+.expected-events-row {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
