@@ -10,16 +10,12 @@
     justify-content: space-between;
 }
 
-.flow-card--header {
-    padding-top: .9rem;
-}
-
-.flow-card--moderator-info,
-.flow-card--header {
+.flow-card-content__moderator-info,
+.flow-card-header {
     display: flex;
 }
 
-.flow-card--title {
+.flow-card-header__title {
     text-transform: uppercase;
     font-size: 1rem;
     vertical-align: top;
@@ -27,37 +23,48 @@
     line-height: 1.3rem;
 }
 
-.flow-card__moderator-img {
+.flow-card-content__moderator-img {
     max-width: 46px;
     max-height: 46px;
     border-radius: 5px;
     margin-right: .5rem;
 }
 
-.flow-card--moderator {
+.flow-card-content__moderator {
     padding-bottom: .9rem;
     background-color: #ddd;
     border-bottom-right-radius: 10px;
     border-bottom-left-radius: 10px;
 }
 
-.flow-card--header,
-.flow-card--moderator,
-.flow-card--content {
+.flow-card-header,
+.flow-card-content__moderator,
+.flow-card-content {
     padding-left: .9rem;
     padding-right: .9rem;
 }
 
-.flow-card__skype-icon {
+.flow-card-header{
+    padding-top: .9rem;
+}
+
+.skype-icon {
     margin-right: .3rem;
 }
 
-.flow-card--moderator-title{
+.flow-card-content__moderator-title {
     margin: 1rem 0 .5rem;
     letter-spacing: normal;
 }
 
-.flow-card--moderator-contacts{
+.flow-card-content__moderator-contacts {
     font-size: .9rem;
     line-height: 1rem;
+}
+
+@media screen and (max-width: 599px) {
+    .flow-card{
+        background-color: #fff;
+        margin: 1rem;
+    }
 }

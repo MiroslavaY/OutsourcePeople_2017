@@ -1,4 +1,4 @@
-.last-year--section {
+.last-year-section {
     color: #fff;
     background: #414851 url("./../../../images/last-year-bg.png") no-repeat;
     background-size: cover;
@@ -6,21 +6,21 @@
     padding: 4rem 0;
 }
 
-.last-year--title {
+.last-year-section__title {
     text-transform: uppercase;
     font-size: 2rem;
     margin-right: 2rem;
     line-height: 2.5rem;
 }
 
-.last-year--video,
-.last-year--section {
+.last-year-section__video,
+.last-year-section {
     justify-content: center;
     align-items: center;
     display: flex;
 }
 
-.last-year--video {
+.last-year-section__video {
     height: 275px;
     width: 430px;
 }
@@ -70,3 +70,12 @@
     width: 0;
 }
 
+@media all and (max-width: 761px) {
+    .last-year-section__title {
+        text-align: center;
+        margin-left: 2rem;
+    }
+    .last-year-section{
+        padding: 2rem 0;
+    }
+}

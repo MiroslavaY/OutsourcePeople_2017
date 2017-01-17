@@ -9,17 +9,20 @@ export default class SpecialEvent extends React.Component {
       <div>
         {
           events.map((el) => {
-            return(
+            return (
               <div className="special-event" key={el.time} style={{backgroundColor: el.color}}>
                 <div>{el.time}</div>
-                <img alt="Event" src={require(`./../../../../fixtures/images/${el.img}`)} />
-                <div>{el.info}</div>
+                <img
+                  className="special-event__img"
+                  alt="Event"
+                  src={require(`./../../../../fixtures/images/${el.img}`)}
+                />
+                <div className="special-even__title">{el.description}</div>
               </div>
             )
           })
         }
       </div>
-
     )
   }
 }

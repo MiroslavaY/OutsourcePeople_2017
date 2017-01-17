@@ -14,7 +14,7 @@ export default class Organizers extends React.Component {
         <Title
           text={'Организаторы'}
         />
-        <div className="organizers--content">
+        <div className="organizers-content">
           {
             organizers.map((category) => {
               return (

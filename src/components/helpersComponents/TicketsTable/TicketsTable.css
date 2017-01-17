@@ -1,0 +1,59 @@
+.table-container {
+    width: 100%;
+    overflow: auto;
+    padding: 1rem;
+    box-sizing: border-box;
+}
+
+.tickets-table {
+    min-width: 940px;
+    margin: 0 auto 3rem auto;
+    font-family: AAvanteTckMedium, sans-serif;
+}
+
+.tickets-table__row {
+    text-align: left;
+}
+
+.tickets-table__body .tickets-table__row:nth-of-type(odd) {
+    background-color: #e3e3e3;
+}
+
+.tickets-table__cell {
+    padding: 1rem;
+}
+
+.tickets-table__cell:first-child {
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+.tickets-table__cell:last-child {
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.tickets-table__title {
+    padding: 1rem;
+}
+
+.tickets-table__cell--unavailable:before {
+    content: '\2716';
+    color: #ff0000;
+}
+
+.tickets-table__cell--available:before {
+    content: '\2714';
+    color: #00a651;
+}
+
+.tickets-table__title,
+.tickets-table__cell--available,
+.tickets-table__cell--unavailable {
+    text-align: center;
+    font-size: 1.3rem;
+}
+
+.tickets-table__cell--accordion {
+    border-radius: 10px;
+}

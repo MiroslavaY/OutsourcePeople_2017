@@ -6,6 +6,7 @@ import {records} from './../../../fixtures/recordDeadlines';
 
 
 export default class BuyRecord extends React.Component {
+
   constructor(props) {
     super(props);
     this.state = {
@@ -15,23 +16,22 @@ export default class BuyRecord extends React.Component {
 
   render() {
     return (
-      <div className="buy-record--section">
-        <h2 className="buy-record--title">Купить запись</h2>
-        <div className="buy-record--buy-info">
-          <p className="buy-record--current-price">&#36;{this.state.currentPrice}</p>
+      <div className="buy-record-section">
+        <h2 className="buy-record-section__title">Купить запись</h2>
+        <div className="buy-record-section__buy-info">
+          <p className="buy-record-section__current-price">&#36;{this.state.currentPrice}</p>
           <Button
             size={'large'}
             text={'Купить запись'}
             onClick={null}
           />
         </div>
-        <div className="buy-record--accordion">
+        <div className="buy-record-accordion">
           <DeadlinesAccordion
             type={'records'}
             deadlines={records}
           />
         </div>
-
       </div>
     )
   }

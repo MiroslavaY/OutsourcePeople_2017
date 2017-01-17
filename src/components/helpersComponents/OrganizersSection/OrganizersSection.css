@@ -1,4 +1,4 @@
-.organizers--zone-of-responsibility {
+.organizers-zone-of-responsibility {
     max-width: 435px;
     display: inline-flex;
     flex-wrap: wrap;
@@ -6,20 +6,28 @@
     text-align: left;
 }
 
-.organizers--zone-title{
+.organizers-zone-of-responsibility__title {
     width: 100%;
     font-size: 1.4rem;
     border-bottom: 1px solid #589cd4;
     padding-bottom: .3rem;
 }
 
-.organizers--decorative-block{
+.organizers-zone-of-responsibility__decorative-block {
     width: 60px;
     background-color: #589cd4;
     height: 5px;
 }
 
-.organizers--zone-of-responsibility--content{
+.organizers-zone-of-responsibility__content {
     display: inline-flex;
     flex-wrap: wrap;
+}
+
+
+@media all and (max-width: 921px){
+    .organizers-zone-of-responsibility{
+        margin: auto auto 1.5rem;
+        padding: 0 1rem;
+    }
 }

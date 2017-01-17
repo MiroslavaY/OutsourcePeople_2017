@@ -1,14 +1,14 @@
-.partners--category {
+.partners-category {
     max-width: 980px;
     margin: 0 auto;
     text-align: center;
 }
 
-.partners--section {
+.partners-section {
     padding-bottom: 3rem;
 }
 
-.partner__img {
+.partner-block__img {
     max-width: 165px;
     margin: auto;
     position: absolute;
@@ -18,7 +18,7 @@
     right: 0;
 }
 
-.partner--block {
+.partner-block {
     display: inline-block;
     filter: grayscale(100%);
     width: 175px;
@@ -29,11 +29,11 @@
     margin: .3rem;
 }
 
-.partner--block a{
+.partner-block a{
     height: 100%;
     width: 100%;
 }
 
-.partner--block:hover{
+.partner-block:hover{
     filter: none;
 }

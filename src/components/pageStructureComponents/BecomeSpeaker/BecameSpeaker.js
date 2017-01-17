@@ -7,8 +7,8 @@ export default class BecameSpeaker extends React.Component {
 
   render() {
     return (
-      <div className="become-speaker">
-        <h2 className="become-speaker--title">Стать спикером</h2>
+      <div className="become-speaker-section">
+        <h2 className="become-speaker-section__title">Стать спикером</h2>
         <Button
           size={'large'}
           text={'Подать заявку'}

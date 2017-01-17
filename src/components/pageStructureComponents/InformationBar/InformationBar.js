@@ -20,16 +20,16 @@ export default class InformationBar extends React.Component {
     return (
       <div className="information-bar" style={{backgroundColor: this.state.bgColor}}>
         <div>
-          <span className="information-bar--amount">{this.state.info.reports}</span>
-          <p className="information-bar--type">доклада</p>
+          <span className="information-bar__amount">{this.state.info.reports}</span>
+          <p className="information-bar__type">доклада</p>
         </div>
         <div>
-          <span className="information-bar--amount">{this.state.info.days}</span>
-          <p className="information-bar--type">дня</p>
+          <span className="information-bar__amount">{this.state.info.days}</span>
+          <p className="information-bar__type">дня</p>
         </div>
         <div>
-          <span className="information-bar--amount">{this.state.info.companies}</span>
-          <p className="information-bar--type">IT компаний</p>
+          <span className="information-bar__amount">{this.state.info.companies}</span>
+          <p className="information-bar__type">IT компаний</p>
         </div>
       </div>
     );

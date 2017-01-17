@@ -1,6 +1,13 @@
 import React from 'react';
 import './DeadlinesAccordion.css';
 
+const classPicker = {
+  title: (type) => `deadlines-title--for-${type}`,
+  accordionType: (type) => `deadlines-accordion--for-${type} `,
+  tableRow: (type) => `accordion-table__tr--for-${type}`,
+  tableData: (type) => `accordion-table__td--for-${type}`,
+};
+
 
 export default class DeadlinesAccordion extends React.Component {
   constructor(props) {
@@ -20,32 +27,49 @@ export default class DeadlinesAccordion extends React.Component {
   render() {
     const deadlinesData = this.props.deadlines;
     const keys = Object.keys(this.props.deadlines[0]);
-    const isRecordDeadlines = this.props.type === 'records';
-
+    const accordionType = this.props.type;
     return (
-      <div className="deadlines-accordion--for-records">
-        <h3 className="deadlines-accordion--title" onClick={this.handleToggle}>
+      <div className={`deadlines-accordion ${classPicker.accordionType(accordionType)}`}>
+        <h3 className={`deadlines-accordion-title ${classPicker.title(accordionType)}`} onClick={this.handleToggle}>
           Все сроки
-          <span>{this.state.isActive ? String.fromCharCode(9650) : String.fromCharCode(9660)}</span></h3>
+          <span
+            className={this.state.isActive ?
+              'deadlines-accordion-title__triangle--closed' :
+              'deadlines-accordion-title__triangle--opened'}
+          />
+        </h3>
         <div className={this.state.isActive ? 'accordion-opened' : 'accordion-closed'}>
-          <table className="accordion--table">
+          <table className="accordion-table">
             {
-              isRecordDeadlines && <thead className="accordion--table--head">
-              <tr>
+              accordionType === 'records' && <thead className="accordion-thead">
+              <tr className={`accordion-table__tr ${classPicker.tableRow(accordionType)}`}>
                 {
-                  keys.map((headline) => <td key={headline}>{headline.replace(/_/g, ' ')}</td>)
+                  keys.map((headline) => <td
+                    className={classPicker.tableData(accordionType)}
+                    key={headline}>
+                    {headline.replace(/_/g, ' ')}
+                  </td>)
                 }
               </tr>
               </thead>
             }
-            <tbody>
+            <tbody className="accordion-tbody">
             {/*!!!!!!! remove indexes!!!!!!!*/}
             {
               deadlinesData.map((el, i)=> {
                 return (
-                  <tr key={i}>
+                  <tr className={`accordion-table__tr ${classPicker.tableRow(accordionType)}`} key={i}>
                     {
-                      keys.map((property) => <td key={property}>{el[property]}</td>)
+                      keys.map((property) => {
+                        return (
+                          <td
+                            className={classPicker.tableData(accordionType)}
+                            key={property}
+                          >
+                            {el[property]}
+                          </td>
+                        )
+                      })
                     }
                   </tr>)
               })

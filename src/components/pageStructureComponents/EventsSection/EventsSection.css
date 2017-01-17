@@ -12,11 +12,11 @@
     margin-bottom: 4rem;
 }
 
-.expected-event--name{
+.expected-event__name {
     margin-top: .9rem;
 }
 
-.expected-events-row {
+.expected-events-section__row {
     max-width: 800px;
     margin: 0 auto;
 }

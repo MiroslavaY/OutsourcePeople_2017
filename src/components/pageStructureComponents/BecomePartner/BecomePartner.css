@@ -1,4 +1,4 @@
-.become-partner {
+.become-partner-section {
     background-color: #326081;
     display: flex;
     padding: 2rem;
@@ -7,7 +7,7 @@
     flex-wrap: wrap;
 }
 
-.become-partner--title {
+.become-partner-section__title {
     font-size: 2rem;
     color: #fff;
     text-transform: uppercase;
@@ -15,3 +15,9 @@
 }
 
 
+@media all and (max-width: 632px){
+    .become-partner-section__title {
+        margin: auto 4rem 1rem 4rem;
+        text-align: center;
+    }
+}

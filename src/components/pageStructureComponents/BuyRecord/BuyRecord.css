@@ -1,28 +1,43 @@
-.buy-record--section {
+.buy-record-section {
     background-color: #3a6786;
     padding: 3rem 0 1rem;
     text-align: center;
 }
 
-.buy-record--title {
+.buy-record-section__title {
     font-size: 2rem;
     color: #fff;
     text-transform: uppercase;
-    margin-right: 4rem;
+    margin: auto 4rem auto 1rem;
 }
 
-.buy-record--current-price {
+.buy-record-section__current-price {
     color: #ffc000;
     font-size: 2.8rem;
     padding: .6rem;
 }
 
-.buy-record--title,
-.buy-record--buy-info {
+.buy-record-section__title,
+.buy-record-section__buy-info {
     display: inline-block;
 }
 
-.buy-record--accordion{
+.buy-record-accordion {
     max-width: 520px;
     margin: 1rem auto;
+}
+
+@media all and (max-width: 546px){
+    .buy-record-section__title{
+        margin-left: 4rem;
+    }
+    .buy-record-accordion{
+        margin: 1rem;
+    }
+}
+
+@media all and (max-width: 433px){
+    .buy-record-accordion{
+        font-size: .7rem;
+    }
 }

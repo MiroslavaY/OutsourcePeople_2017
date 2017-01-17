@@ -18,14 +18,14 @@ export default class MainSpeakers extends React.Component {
               {/* !!!!!! remove index and set name!!!!!!*/
               }
               return (
-                <figure key={i} className="main-speakers--section">
+                <figure key={i} className="main-speakers-section">
                   <img
-                    className="main-speakers__img"
+                    className="main-speakers-section__img"
                     src={require('./../../../fixtures/images/face.jpg')}
                     alt="International speakers"
                   />
-                  <figcaption className="main-speakers--info">
-                    <h4 className="main-speakers--name">{speaker.name}</h4>
+                  <figcaption className="main-speakers-section__info">
+                    <h4 className="main-speakers-section__info__name">{speaker.name}</h4>
                     <p>{speaker.description}</p>
                   </figcaption>
                 </figure>)

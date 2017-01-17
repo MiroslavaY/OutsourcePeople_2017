@@ -1,43 +1,39 @@
 import React from 'react';
 import './ClosedMeetings.css';
-import Tabs from './../../helpersComponents/Tabs/Tabs/Tabs';
-import Pane from './../../helpersComponents/Tabs/Pane/Pane';
 import Title from './../../helpersComponents/SectionTitle/SectionTitle';
-import TimeLine from './../../helpersComponents/TimeLineForTabs/TimeLineForTabs';
 import PersonInfoBlock from './../../helpersComponents/PersonInfoForMeetings/PersonInfoForMeetings';
-import {meetingsParticipants} from './../../../fixtures/meetingsParticipants';
+import MeetingContainer from './../../helpersComponents/MeetingsContainer/MeetingsContainer';
+import {closedMeetingsParticipants} from './../../../fixtures/meetingsParticipants';
 
 
 export default class ClosedMeetings extends React.Component {
   render() {
-    const events = meetingsParticipants;
+    const events = closedMeetingsParticipants;
     return (
       <div className="closed-meetings">
         <Title
           text={'Закрытые встречи*'}
         />
-        <Tabs selected={0}>
-          <Pane label="1-й День">
+
+        <MeetingContainer>
+          <h3 className="experts-tables__day-title">День первый</h3>
+          <div className="closed-meetings-data">
             {
-              events.map((event)=> {
+              events.map((meeting) => {
                 return (
-                  <div key={event.time}>
-                    <TimeLine
-                      time={event.time}
-                    />
-                    {
-                      event.participants.map((person) => <PersonInfoBlock key={person.name} personInfo={person}/>)
-                    }
+                  <div className="close-meeting-item" key={meeting.time}>
+                    <div className="close-meeting-item__time">{meeting.time}</div>
+                    <div>
+                      <PersonInfoBlock key={meeting.person.name} personInfo={meeting.person}/>
+                    </div>
                   </div>
                 )
               })
             }
-          </Pane>
-          <Pane label="2-й День">
-            <div>There are will be a 2nd day schedule!</div>
-          </Pane>
-        </Tabs>
-        <p className="closed-meetings--explanation">
+          </div>
+
+        </MeetingContainer>
+        <p className="closed-meetings__explanation">
           *Закрытые встречи представляют собой эксклюзивный формат общения с ТОП спикерами конференции
           - ведущими мировыми экспертами, доступный только для участников с ВИП билетом. Это возможность
           в узком кругу единомышленников задать ТОП спикерам все интересующие вопросы и гарантированно получить

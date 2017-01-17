@@ -1,23 +1,23 @@
-.meeting-person--info-block,
-.meeting-person--description {
+.meeting-person-info,
+.meeting-person-description {
     display: inline-block;
 }
 
-.meeting-person--img {
+.meeting-person-info__img {
     width: 95px;
     height: 95px;
 }
 
-.meeting-person--info-block {
+.meeting-person-info {
     display: inline-flex;
     margin: 1rem;
 }
 
-.meeting-person--description > * {
+.meeting-person-description > * {
     margin: 0 0 .7rem .7rem;
 }
 
-.meeting-person--career{
+.meeting-person-description__career {
     font-weight: 100;
     font-size: .7rem;
 }

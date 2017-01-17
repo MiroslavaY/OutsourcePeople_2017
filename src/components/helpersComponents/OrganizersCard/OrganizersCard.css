@@ -3,11 +3,11 @@
     margin-top: 2rem;
 }
 
-.organizer-card--header {
+.organizer-card__header {
     display: inline-flex;
 }
 
-.organizer-card--person-contacts {
+.organizer-card__person-contacts {
     width: 100%;
     margin-top: 1rem;
     line-height: .8rem;
@@ -18,25 +18,25 @@
     max-height: 70px;
 }
 
-.organizer-card--person-name {
+.organizer-card__person-info__name {
     font-size: 1rem;
     text-transform: uppercase;
 }
 
-.organizer-card--person-info {
+.organizer-card__person-info {
     padding-left: .8rem;
 }
 
-.organizer-card--person-phone {
+.organizer-card__person-info__phone {
     padding-top: 1rem;
 }
 
-.organizer-card--person-phone,
-.organizer-card--person-contacts {
+.organizer-card__person-info__phone,
+.organizer-card__person-contacts {
     font-size: .7rem
 }
 
-.organizer-card__person-email {
+.organizer-card__person-contacts__email {
     color: #0040d2;
     text-decoration: underline;
 }

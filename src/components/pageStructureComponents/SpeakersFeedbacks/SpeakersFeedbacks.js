@@ -7,7 +7,7 @@ export default class SpeakersFeedbacks extends React.Component {
 
   render() {
     return (
-      <div className="speakers-feedbacks">
+      <div className="speakers-feedbacks-section">
         <Slider
           title={'Отзыв спикера'}
           values={allFeedbacks}

@@ -1,13 +1,16 @@
 .category-label{
-    width: 225px;
+    width: 220px;
     display: inline-block;
     text-align: center;
     text-transform: uppercase;
+}
+
+.category-label:nth-of-type(odd){
     margin-right: .5rem;
 }
 
-.category-label--name{
-    border-radius: 6px;
+.category-label__name {
+    border-radius: 10px;
     color: #fff;
     font-size: .9rem;
     height: 50px;
@@ -15,11 +18,11 @@
    line-height: 50px;
 }
 
-.category-label--location{
+.category-label__location {
     font-size: 1.1rem;
     padding: 1rem .2rem;
 }
 
-.categories-labels--wrapper{
+.categories-labels-wrapper {
     text-align: center;
 }

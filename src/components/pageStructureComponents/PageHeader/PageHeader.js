@@ -5,32 +5,31 @@ import Menu  from '../../helpersComponents/Menu/Menu';
 export default class PageHeader extends React.Component {
   render() {
     return (
-      <header className="header">
+      <div className="header">
         <Menu/>
-        <div className="header--text-description">
-          <h1>Outsource people <br/> 2017 Kyiv</h1>
-          <h2>Международная конференция по бизнесу <br/> на сервисной разработке ПО</h2>
-          <h1>4-5 ноября</h1>
-        </div>
-        <div className="header--themes-section">
-          <figure>
+        <h1 className="header-text-description--large">Outsource people <br/> 2017 Kyiv</h1>
+        <h2 className="header-text-description--medium">Международная конференция по бизнесу <br/> на сервисной
+          разработке ПО</h2>
+        <h1 className="header-text-description--large">4-5 ноября</h1>
+        <div className="header-themes-section">
+          <figure className="header-theme">
             <img src={require('./../../../images/earth.png')} alt="International speakers"/>
-            <figcaption>Международные докладчики</figcaption>
+            <figcaption className="header-theme__caption">Международные докладчики</figcaption>
           </figure>
-          <figure>
-            <img src={require('./../../../images/earth.png')} alt="Industry trends"/>
-            <figcaption>Тренды индустрии</figcaption>
+          <figure className="header-theme">
+            <img className="header-theme__img" src={require('./../../../images/earth.png')} alt="Industry trends"/>
+            <figcaption className="header-theme__caption">Тренды индустрии</figcaption>
           </figure>
-          <figure>
-            <img src={require('./../../../images/earth.png')} alt="New clients"/>
-            <figcaption>Новые клиенты</figcaption>
+          <figure className="header-theme">
+            <img className="header-theme__img" src={require('./../../../images/earth.png')} alt="New clients"/>
+            <figcaption className="header-theme__caption">Новые клиенты</figcaption>
           </figure>
-          <figure>
-            <img src={require('./../../../images/earth.png')} alt="Business relations"/>
-            <figcaption>Деловые связи</figcaption>
+          <figure className="header-theme">
+            <img className="header-theme__img" src={require('./../../../images/earth.png')} alt="Business relations"/>
+            <figcaption className="header-theme__caption">Деловые связи</figcaption>
           </figure>
         </div>
-      </header>
+      </div>
     );
   }
 }

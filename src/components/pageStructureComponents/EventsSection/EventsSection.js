@@ -17,23 +17,23 @@ export default class EventsSection extends React.Component {
     const expectedEvents = events;
     return (
       <div className="expected-event-section">
-        <div className="expected-events-row">
+        <div className="expected-events-section__row">
           {
             expectedEvents.map((event) => {
-              return(
+              return (
                 <figure key={event} className="expected-event">
                   <img
-                    className="expected-event--image"
+                    className="expected-event__image"
                     src={require('./../../../images/experts-table.png')}
                     alt={event}
                   />
-                  <figcaption className="expected-event--name">
+                  <figcaption className="expected-event__name">
                     {event}
                   </figcaption>
                 </figure>)
             })
           }
-       </div>
+        </div>
       </div>
     );
   }

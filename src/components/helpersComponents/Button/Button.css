@@ -1,22 +1,28 @@
-.multipurpose-button input {
+.multipurpose-button__input {
     font-size: 1rem;
     color: #fff;
     background-color: #ed1b24;
     outline: none;
     border: none;
-    border-radius: 6px;
+    border-radius: 10px;
 }
 
-.multipurpose-button input:hover,
-.multipurpose-button input:active {
+.multipurpose-button__input:hover,
+.multipurpose-button__input:active {
     background-color: #d60d15;
     cursor: pointer;
 }
 
-.small{
+.multipurpose-button--small {
     padding: .5rem .8rem;
 }
 
-.large{
+.multipurpose-button--large {
     padding: .8rem 3rem;
+}
+
+.multipurpose-button--extra-small {
+    max-width: 100px;
+    font-size: .8rem;
+    padding: .5rem .6rem;
 }

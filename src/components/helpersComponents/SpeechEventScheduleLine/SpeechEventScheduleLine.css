@@ -1,0 +1,13 @@
+.schedule-speech-event{
+    text-align: left;
+    padding: 1rem;
+}
+
+.schedule-speech-event__time{
+    margin-bottom: 1rem;
+}
+
+.schedule-speech-event__all-speakers{
+    display: inline-flex;
+    flex-wrap: wrap;
+}

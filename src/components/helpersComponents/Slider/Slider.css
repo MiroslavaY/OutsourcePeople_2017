@@ -16,7 +16,7 @@
     color: #171717;
 }
 
-.slider-control--button {
+.slider__control-button {
     background-color: rgba(0,0,0,0);
     width: 78px;
     height: 78px;
@@ -28,53 +28,84 @@
     cursor: pointer;
 }
 
-.slider-control--button:hover{
+.slider__control-button:hover{
     background-color: #599bd5;
     color: #fff; ;
 }
 
-.slider-control--button > *{
+.slider__control-button > *{
     margin-top: -12px;
 }
 
-.slider--photo-block {
+.slider-content__photo {
     padding: 1rem 2rem;
 }
 
-.slider--feedback-block {
+.slider-feedback {
     padding: 3rem 1rem 1rem;
     overflow: scroll;
 }
 
-.slider--feedback-block,
-.slider--photo-block {
+.slider-feedback,
+.slider-content__photo {
     display: inline-block
 }
 
-.slider--person-img {
+.slider-content__photo__img {
     max-width: 125px;
     text-align: center;
     border-radius: 10px;
 }
 
-.slider--feedback-title {
+.slider-feedback__title {
     color: #68a4d6;
     text-transform: uppercase;
     margin-bottom: .5rem;
 }
 
-.slider--person-info {
+.slider-content__person-info {
     font-size: .7rem;
     text-transform: uppercase;
     margin-top: .7rem;
     line-height: .9rem;
 }
 
-.slider--person-career {
+.slider-content__person-info__career {
     text-transform: none;
     font-style: italic;
 }
 
-.slider--feedback{
+.slider-feedback__paragraph {
     line-height: 1.3rem;
+}
+
+.animate-sliding{
+    animation: fadeInSlide 500ms ease-in-out;
+}
+
+@keyframes fadeInSlide {
+    from {
+        background-color: red;
+    }
+    to {
+        background-color: blue;
+    }
+}
+
+@media all and (max-width: 410px){
+    .slider__control-button--left{
+        width: 39px;
+        height: 39px;
+        font-size: 2rem;
+        margin-right: -43px;
+    }
+    .slider__control-button--right{
+        width: 39px;
+        height: 39px;
+        font-size: 2rem;
+        margin-left: -43px;
+    }
+    .slider__control-button > *{
+        margin-top: -6px;
+    }
 }

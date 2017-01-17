@@ -1,19 +1,19 @@
-.accommodation {
+.accommodation-section {
     padding-bottom: 4rem;
 }
 
-.accommodation--items {
+.accommodation-items {
     text-align: center;
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
 }
 
-.accommodation--item {
+.accommodation-items__item {
     margin: 0 1.4rem 3rem 0;
 }
 
-.accommodation--item--icon {
+.accommodation-items__item__icon {
     background-color: #336182;
     width: 85px;
     height: 85px;
@@ -24,16 +24,16 @@
     font-size: 1.8rem;
 }
 
-.accommodation--item--name {
+.accommodation-items__item__name {
     margin-bottom: .6rem;
 }
 
-.accommodation--item--description {
+.accommodation-items__item__description {
     color: #569cbe;
     text-decoration: none;
 }
 
-.accommodation--item--description:hover {
+.accommodation-items__item__description:hover {
     text-decoration: underline;
 }
 
