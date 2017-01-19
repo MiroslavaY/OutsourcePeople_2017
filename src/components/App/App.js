@@ -1,12 +1,12 @@
 import React from 'react';
 import './App.css';
-import PageHeader from './../pageStructureComponents/PageHeader/PageHeader';
+import PageHeader from '../pageStructureComponents/Header/Header';
 import InformationBar from './../pageStructureComponents/InformationBar/InformationBar';
 import MainSpeakers from './../pageStructureComponents/MainSpeakers/MainSpeakers';
 import EventsSection from './../pageStructureComponents/EventsSection/EventsSection';
 import CategoriesInformation from './../pageStructureComponents/CategoriesInformation/CategoriesInformation';
 import Schedule from './../pageStructureComponents/Schedule/Schedule';
-import BecomeSpeaker from './../pageStructureComponents/BecomeSpeaker/BecameSpeaker';
+import BecomeSpeaker from '../pageStructureComponents/BecomeSpeaker/BecomeSpeaker';
 import BecomePartner from './../pageStructureComponents/BecomePartner/BecomePartner';
 import Footer from './../pageStructureComponents/Footer/Footer';
 import Accommodation from './../pageStructureComponents/Accommodation/Accommodation';

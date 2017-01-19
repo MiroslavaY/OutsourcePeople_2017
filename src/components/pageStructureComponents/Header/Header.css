@@ -1,7 +1,7 @@
 .header {
     color: #fff;
     text-align: center;
-    background: center center #414851 url("./../../../images/header-bg.png") no-repeat;
+    background: center top #414851 url("./../../../images/header-bg.png") no-repeat;
 }
 
 .header-text-description--large {
@@ -42,3 +42,6 @@
     font-size: 1rem;
 }
 
+.header-content{
+    padding: 1rem;
+}

@@ -9,7 +9,7 @@ export default class Partners extends React.Component {
   render() {
     const allCategories = allPartners;
     return (
-      <div className="partners-section">
+      <section className="partners-section">
         {
           allCategories.map((category) => {
             return (
@@ -37,7 +37,7 @@ export default class Partners extends React.Component {
             )
           })
         }
-      </div>
+      </section>
     );
   }
 }

@@ -3,12 +3,24 @@
     display: flex;
     border-radius: 10px;
     margin-bottom: 1px;
-}
-
-.schedule-closed-event > * {
     padding: 1rem;
+    align-items: center;
+    text-align: left;
 }
 
-.schedule-closed-event__time{
-    padding-top: 1.5rem;
+.schedule-closed-event__description,
+.schedule-closed-event__time {
+    margin-right: 1.3rem;
+}
+
+@media all and (max-width: 392px) {
+    .schedule-closed-event {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .schedule-closed-event__description,
+    .schedule-closed-event__time {
+        margin-bottom: .5rem;
+    }
 }

@@ -1,0 +1,18 @@
+.special-event {
+    padding: .5rem 1rem;
+    color: #fff;
+    display: flex;
+    border-radius: 10px;
+    margin-bottom: 1px;
+    align-items: center;
+    text-align: left;
+}
+
+.special-event__img {
+    max-height: 33px;
+}
+
+.special-event__time,
+.special-event__img {
+    margin-right: 1.1rem;
+}

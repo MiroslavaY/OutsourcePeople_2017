@@ -8,7 +8,7 @@ export default class MainSpeakers extends React.Component {
   render() {
     const mainSpeakers = speakers;
     return (
-      <div>
+      <section className="main-speakers-section">
         <Title
           text={'Ключевые спикеры'}
         />
@@ -18,21 +18,21 @@ export default class MainSpeakers extends React.Component {
               {/* !!!!!! remove index and set name!!!!!!*/
               }
               return (
-                <figure key={i} className="main-speakers-section">
+                <figure key={i} className="main-speaker">
                   <img
-                    className="main-speakers-section__img"
+                    className="main-speaker__img"
                     src={require('./../../../fixtures/images/face.jpg')}
                     alt="International speakers"
                   />
-                  <figcaption className="main-speakers-section__info">
-                    <h4 className="main-speakers-section__info__name">{speaker.name}</h4>
+                  <figcaption className="main-speaker__info">
+                    <h4 className="main-speaker__name">{speaker.name}</h4>
                     <p>{speaker.description}</p>
                   </figcaption>
                 </figure>)
             })
           }
         </div>
-      </div>
+      </section>
     );
   }
 }

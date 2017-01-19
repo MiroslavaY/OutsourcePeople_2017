@@ -9,12 +9,10 @@ export default class ClosedEventsScheduleLine extends React.Component {
     return (
       <div className="schedule-closed-event">
         <div className="schedule-closed-event__time">{event.time}</div>
-        <div className="schedule-closed-event__description">
-          <p>
-            Закрытая встреча с <br/>
-            {event.person.name}
-          </p>
-        </div>
+        <p className="schedule-closed-event__description">
+          Закрытая встреча с <br/>
+          {event.person.name}
+        </p>
         <Button
           text={'Купить VIP билет '}
         />

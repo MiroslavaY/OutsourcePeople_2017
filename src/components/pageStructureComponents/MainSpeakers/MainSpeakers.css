@@ -6,28 +6,28 @@
     text-align: center;
 }
 
-.main-speakers-section__info,
+.main-speaker__info,
 .main-speakers,
-.main-speakers-section {
+.main-speaker {
     box-sizing: border-box;
 }
 
-.main-speakers-section {
+.main-speaker {
     max-width: 200px;
     display: inline-block;
     margin: 0 1rem 3rem 0;
 }
 
-.main-speakers-section__info__name {
+.main-speaker__name {
     font-size: 1rem;
     padding: .7rem 0 .4rem;
 }
 
-.main-speakers-section__info {
+.main-speaker__info {
     text-align: left;
 }
 
-.main-speakers-section__img {
+.main-speaker__img {
     height: 200px;
     border-radius: 10px;
 }

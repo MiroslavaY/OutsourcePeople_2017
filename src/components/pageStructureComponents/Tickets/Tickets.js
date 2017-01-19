@@ -10,7 +10,7 @@ import {packages} from './../../../fixtures/tickets';
 export default class Tickets extends React.Component {
   render() {
     return (
-      <div className="tickets-section">
+      <section className="tickets-section">
         <Title
           text={'Билеты'}
         />
@@ -32,7 +32,7 @@ export default class Tickets extends React.Component {
           text={'Корпоративная покупка'}
           onCLick={null}
         />
-      </div>
+      </section>
     );
   }
 }

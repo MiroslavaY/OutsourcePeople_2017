@@ -20,7 +20,7 @@ export default class LastYear extends React.Component {
 
   render() {
     return (
-      <div className="last-year-section">
+      <section className="last-year-section">
         <h2 className="last-year-section__title">Как это было <br/> в прошлом году</h2>
         {
 
@@ -33,7 +33,7 @@ export default class LastYear extends React.Component {
               />
             </div>
         }
-      </div>
+      </section>
     );
   }
 }

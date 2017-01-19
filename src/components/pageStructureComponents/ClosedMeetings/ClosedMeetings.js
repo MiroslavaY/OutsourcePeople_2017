@@ -10,7 +10,7 @@ export default class ClosedMeetings extends React.Component {
   render() {
     const events = closedMeetingsParticipants;
     return (
-      <div className="closed-meetings">
+      <section className="closed-meetings-section">
         <Title
           text={'Закрытые встречи*'}
         />
@@ -39,7 +39,7 @@ export default class ClosedMeetings extends React.Component {
           в узком кругу единомышленников задать ТОП спикерам все интересующие вопросы и гарантированно получить
           профессиональный совет.
         </p>
-      </div>
+      </section>
     );
   }
 }

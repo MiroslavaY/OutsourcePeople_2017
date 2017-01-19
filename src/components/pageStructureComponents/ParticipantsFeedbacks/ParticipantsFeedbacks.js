@@ -8,12 +8,12 @@ export default class ParticipantsFeedbacks extends React.Component {
 
   render() {
     return (
-      <div className="participants-feedbacks">
+      <section className="participants-feedbacks">
         <Slider
           title={'Отзыв участника'}
           values={allFeedbacks}
         />
-      </div>
+      </section>
     );
   }
 }

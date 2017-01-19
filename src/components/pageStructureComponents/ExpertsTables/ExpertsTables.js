@@ -11,7 +11,7 @@ export default class ExpertsTables extends React.Component {
   render() {
     const events = expertsTables;
     return (
-      <div className="experts-tables">
+      <section className="experts-tables-section">
         <Title
           text={'Экспертные столы*'}
         />
@@ -52,7 +52,7 @@ export default class ExpertsTables extends React.Component {
           спикеров конференции в режиме тет-а-тет. Запись на Экспертый стол осуществляется предварительно,
           участники конференции будут уведомлены об открытии регистрации накануне мероприятия.
         </p>
-      </div>
+      </section>
     );
   }
 }

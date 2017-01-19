@@ -8,7 +8,7 @@ export default class Accommodation extends React.Component {
   render() {
     const accommodation = accommodationItems;
     return (
-      <div className="accommodation-section">
+      <section className="accommodation-section">
         <SectionTitle
           text={'Проживание'}
         />
@@ -25,7 +25,7 @@ export default class Accommodation extends React.Component {
             })
           }
         </div>
-      </div>
+      </section>
     );
   }
 }

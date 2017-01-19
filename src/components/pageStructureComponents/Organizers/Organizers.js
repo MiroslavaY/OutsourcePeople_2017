@@ -10,7 +10,7 @@ export default class Organizers extends React.Component {
 
   render() {
     return (
-      <div className="organizers">
+      <section className="organizers-section">
         <Title
           text={'Организаторы'}
         />
@@ -29,7 +29,7 @@ export default class Organizers extends React.Component {
             })
           }
         </div>
-      </div>
+      </section>
     );
   }
 }

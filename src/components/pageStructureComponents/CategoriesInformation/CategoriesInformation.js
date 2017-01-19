@@ -24,7 +24,7 @@ export default class CategoriesInformation extends React.Component {
 
     const categories = this.state.categoriesItems;
     return (
-      <div className="categories-information">
+      <section className="categories-information-section">
         <Title
           text={'Информация о потоках'}
         />
@@ -40,7 +40,7 @@ export default class CategoriesInformation extends React.Component {
             })
           }
         </div>
-      </div>
+      </section>
     );
   }
 }

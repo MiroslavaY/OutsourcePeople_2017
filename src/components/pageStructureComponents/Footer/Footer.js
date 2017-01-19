@@ -3,12 +3,12 @@ import './Footer.css';
 import Button from './../../helpersComponents/Button/Button';
 import {paymentSystems} from './../../../fixtures/payment';
 
-export default class Footer extends React.Component {
 
+export default class Footer extends React.Component {
   render() {
     const payment = paymentSystems;
     return (
-      <div className="footer-section">
+      <footer className="footer-section">
         <div className="footer-section__group">
           <h4 className="footer-section__title">Outsource people 2017</h4>
           <p className="footer-section__paragraph">Международная конференция по бизнесу на аутсорсинге разработки ПО</p>
@@ -45,7 +45,7 @@ export default class Footer extends React.Component {
             />
           </form>
         </div>
-      </div>
+      </footer>
     );
   }
 }

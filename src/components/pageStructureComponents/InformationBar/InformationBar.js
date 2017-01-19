@@ -18,7 +18,7 @@ export default class InformationBar extends React.Component {
 
   render() {
     return (
-      <div className="information-bar" style={{backgroundColor: this.state.bgColor}}>
+      <section className="information-bar" style={{backgroundColor: this.state.bgColor}}>
         <div>
           <span className="information-bar__amount">{this.state.info.reports}</span>
           <p className="information-bar__type">доклада</p>
@@ -31,7 +31,7 @@ export default class InformationBar extends React.Component {
           <span className="information-bar__amount">{this.state.info.companies}</span>
           <p className="information-bar__type">IT компаний</p>
         </div>
-      </div>
+      </section>
     );
   }
 }

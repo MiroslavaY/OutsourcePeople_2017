@@ -16,7 +16,7 @@ export default class BuyRecord extends React.Component {
 
   render() {
     return (
-      <div className="buy-record-section">
+      <section className="buy-record-section">
         <h2 className="buy-record-section__title">Купить запись</h2>
         <div className="buy-record-section__buy-info">
           <p className="buy-record-section__current-price">&#36;{this.state.currentPrice}</p>
@@ -32,7 +32,7 @@ export default class BuyRecord extends React.Component {
             deadlines={records}
           />
         </div>
-      </div>
+      </section>
     )
   }
 
