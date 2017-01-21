@@ -1,0 +1,8 @@
+.social-networks-likes{
+    position: fixed;
+}
+
+.social-networks-likes .linkedin--custom,
+.social-networks-likes .facebook--custom{
+    margin-bottom: .4rem ;
+}

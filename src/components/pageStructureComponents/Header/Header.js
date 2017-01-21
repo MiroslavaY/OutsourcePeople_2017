@@ -1,6 +1,7 @@
 import React from 'react';
 import './Header.css';
-import Menu  from '../../helpersComponents/Menu/Menu';
+import Menu  from './../../helpersComponents/Menu/Menu';
+import SocialNetworks from './../../helpersComponents/SocialNetworks/SocialNetworks';
 
 
 const themes = [
@@ -27,6 +28,7 @@ export default class Header extends React.Component {
         <Menu/>
         <div className="header-content">
           <h1 className="header-text-description--large">Outsource people <br/> 2017 Kyiv</h1>
+          <SocialNetworks/>
           <h2 className="header-text-description--medium">
             Международная конференция по бизнесу <br/>
             по сервисной разработке ПО</h2>
