@@ -1,0 +1,25 @@
+.callback__logo {
+    max-width: 70px;
+}
+
+.callback-wrapper {
+    color: #171717;
+}
+
+.callback__title{
+    font-size: 1.8rem;
+}
+
+.callback__paragraph{
+    font-size: 1.2rem;
+    margin: .3rem auto;
+}
+
+.callback__input{
+    background-color: #fff;
+    padding: .5rem 1rem;
+    border-radius: 6px;
+    border: 1px solid #2b5c7d;
+    margin: 1rem auto;
+    font-size: 1rem;
+}

@@ -2,6 +2,8 @@ import React from 'react';
 import './SpeakerBlock.css';
 import {categories} from './../../../fixtures/categories';
 import ModalWindow from './../ModalWindow/ModalWindow';
+import ModalPersonCard from './../ModalPersonCard/ModalPersonCard';
+import Callback from './../CallBack/CallBack';
 
 
 export default class SpeakerBlock extends React.Component {
@@ -58,8 +60,9 @@ export default class SpeakerBlock extends React.Component {
           <p className="schedule-speaker__theme">{speaker.speech.theme}</p>
         </div>
         {
-          this.state.isOpened && <ModalWindow person={speaker} closeWindow={this.closeModal}
-          />
+          this.state.isOpened && <ModalWindow closeWindow={this.closeModal}>
+            <ModalPersonCard person={speaker}/>
+          </ModalWindow>
         }
       </div>
     );

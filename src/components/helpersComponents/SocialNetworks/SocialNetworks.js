@@ -26,7 +26,7 @@ export default class SocialNetworks extends React.Component {
 
     js = document.createElement('script');
     js.id = 'facebook-jssdk';
-    js.src = '//connect.facebook.net/ru_RU/sdk.js#xfbml=1&version=v2.8';
+    js.src = '//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.8';
 
     fjs.parentNode.insertBefore(js, fjs);
   }
