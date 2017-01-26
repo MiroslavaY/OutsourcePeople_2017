@@ -1,0 +1,35 @@
+.admin-role {
+    color: #9d261d;
+    font-weight: 900;
+    font-size: .9rem;
+}
+
+.admin-logo {
+    font-size: 1.3rem;
+    font-weight: 100;
+}
+
+.admin-panel-header {
+    display: flex;
+    box-shadow: 0 0 10px rgba(0, 0, 0, .4);
+    padding: 1rem 3rem;
+    justify-content: space-between;
+    align-items: center;
+    background: linear-gradient(to bottom, rgba(255, 255, 255, 1) 0%, rgba(246, 246, 246, 1) 10%, rgba(237, 237, 237, 1) 100%);
+}
+
+.admin_header-link {
+    margin-right: 1rem;
+    text-decoration: none;
+    color: #6b6b6b;
+    cursor: pointer;
+}
+
+.admin_header-link:hover {
+    text-decoration: underline;
+}
+
+.admin-header-wrapper {
+    margin-bottom: 1rem;
+}
+

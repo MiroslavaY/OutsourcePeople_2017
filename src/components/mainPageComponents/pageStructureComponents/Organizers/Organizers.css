@@ -1,0 +1,11 @@
+.organizers-section {
+    padding: .2rem 0 4rem;
+    background: url("../../../../images/oranizers.png") no-repeat;
+    background-size: cover;
+}
+
+.organizers-content {
+    text-align: center;
+    max-width: 1000px;
+    margin: 0 auto;
+}

@@ -1,0 +1,16 @@
+@import '../../../css/_reset.css';
+@import '../../../css/_fonts.css';
+
+body {
+    color: #171717;
+    font-family: 'AAvanteTckMedium', sans-serif;
+    background-color: #fff;
+}
+
+h1,
+h2,
+h3,
+h4 {
+    letter-spacing: .1rem;
+}
+

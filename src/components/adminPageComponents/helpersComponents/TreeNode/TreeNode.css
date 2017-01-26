@@ -1,0 +1,58 @@
+
+.tree-view_item a {
+    padding-right: 70%
+}
+
+.tree-view_item:hover {
+    background-color: rgba(0, 0, 0, .05);
+    border-radius: 4px;
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, .09);
+}
+
+.tree-view_item {
+    padding: 0 .3rem .2rem;
+    display: block;
+    margin-bottom: 2px;
+}
+
+.tree-view_children {
+    margin-left: .8rem;
+}
+
+.tree-view_children-collapsed {
+    height: 0;
+}
+
+.tree-view_arrow {
+    -moz-transition: all .1s;
+    -o-transition: all .1s;
+    -ms-transition: all .1s;
+    -webkit-transition: all .1s;
+    transition: all .1s;
+}
+
+.tree-view_arrow {
+    cursor: pointer;
+    margin-right: .5rem;
+    display: inline-block;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.tree-view_arrow:after {
+    content: '▾';
+    font-size: 1.4rem;
+}
+
+.tree-view_arrow--no-nested-elements.tree-view_arrow:after {
+    opacity: 0;
+}
+
+.tree-view_arrow-collapsed {
+    -webkit-transform: rotate(-90deg);
+    -moz-transform: rotate(-90deg);
+    -ms-transform: rotate(-90deg);
+    transform: rotate(-90deg);
+}
