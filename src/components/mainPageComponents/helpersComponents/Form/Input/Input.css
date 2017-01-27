@@ -1,0 +1,38 @@
+.input-component.input-component--block-display,
+.input-component.input-component--block-display input {
+    display: block;
+    text-align: left;
+}
+
+.input-component.input-component--block-display {
+    width: 50%;
+    margin: 1rem auto;
+}
+
+.input-component input[type=email],
+.input-component input[type=text],
+.input-component textarea {
+    width: 100%;
+    margin: .5rem 0 0;
+    background-color: #fff;
+    padding: .5rem 1rem;
+    border-radius: 6px;
+    border: 1px solid #333;
+    font-size: 1rem;
+}
+
+.input-hint {
+    display: none;
+}
+
+.input-component textarea {
+    resize: none;
+    height: 3rem;
+}
+
+.input-component input:required + .input-hint {
+    color: #3a6786;
+    display: block;
+    margin: .4rem 0 0 .2rem;
+    font-size: .7rem;
+}

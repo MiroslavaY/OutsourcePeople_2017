@@ -25,12 +25,12 @@ export default class TreeNode extends React.Component {
       children,
     } = this.props;
 
-    let arrowClassName = 'tree-view_arrow';
-    let containerClassName = 'tree-view_children';
+    let arrowClassName = 'tree-view__arrow';
+    let containerClassName = 'tree-view__children';
 
     if (collapsed) {
-      arrowClassName += ' tree-view_arrow-collapsed';
-      containerClassName += ' tree-view_children-collapsed';
+      arrowClassName += ' tree-view__arrow--collapsed';
+      containerClassName += ' tree-view__children--collapsed';
     }
 
     const arrow = <div
@@ -40,7 +40,7 @@ export default class TreeNode extends React.Component {
 
     return (
       <section>
-        <div className="tree-view_item">
+        <div className="tree-view__item">
           {arrow}
           {nodeLink}
         </div>

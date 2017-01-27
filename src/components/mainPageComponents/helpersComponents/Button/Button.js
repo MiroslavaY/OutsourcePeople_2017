@@ -13,7 +13,7 @@ export default class Button extends React.Component {
       <div className="multipurpose-button">
         <input
           className={`multipurpose-button__input ${this.props.size ? sizeClasses[this.props.size] : 'multipurpose-button--small'}`}
-          type="button"
+          type={this.props.type ? this.props.type : 'button'}
           value={this.props.text}
           onClick={this.props.handler}
         />

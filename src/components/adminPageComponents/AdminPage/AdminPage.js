@@ -2,23 +2,17 @@ import React from 'react';
 import './AdminPage.css';
 import Header from './../pageStructureComponents/Header/Header';
 import Navigation from './../pageStructureComponents/Navigation/Navigation';
+import ManagePanel  from  './../pageStructureComponents/ManagePanel/ManagePanel';
 
 
 export default class AdminPage extends React.Component {
-
-  componentWillMount(){
-    console.log('mounted');
-  }
-  componentWillUnmount(){
-    console.log('will unmounted');
-  }
-
   render() {
     return (
       <div>
-       <Header/>
+        <Header/>
         <div className="admin-page-content">
           <Navigation/>
+          {React.cloneElement(this.props.children, {paramsEntity: this.props.params.entity})}
         </div>
       </div>
     );

@@ -1,29 +1,29 @@
-
-.tree-view_item a {
-    padding-right: 70%
+.tree-view__item a {
+    padding-right: 55%;
+    padding-top: 5%;
 }
 
-.tree-view_item:hover {
+.tree-view__item:hover {
     background-color: rgba(0, 0, 0, .05);
     border-radius: 4px;
     box-shadow: inset 0 1px 1px rgba(0, 0, 0, .09);
 }
 
-.tree-view_item {
+.tree-view__item {
     padding: 0 .3rem .2rem;
     display: block;
     margin-bottom: 2px;
 }
 
-.tree-view_children {
+.tree-view__children {
     margin-left: .8rem;
 }
 
-.tree-view_children-collapsed {
+.tree-view__children--collapsed {
     height: 0;
 }
 
-.tree-view_arrow {
+.tree-view__arrow {
     -moz-transition: all .1s;
     -o-transition: all .1s;
     -ms-transition: all .1s;
@@ -31,7 +31,7 @@
     transition: all .1s;
 }
 
-.tree-view_arrow {
+.tree-view__arrow {
     cursor: pointer;
     margin-right: .5rem;
     display: inline-block;
@@ -41,16 +41,16 @@
     user-select: none;
 }
 
-.tree-view_arrow:after {
+.tree-view__arrow:after {
     content: '▾';
     font-size: 1.4rem;
 }
 
-.tree-view_arrow--no-nested-elements.tree-view_arrow:after {
+.tree-view__arrow--no-nested-elements.tree-view__arrow:after {
     opacity: 0;
 }
 
-.tree-view_arrow-collapsed {
+.tree-view__arrow--collapsed {
     -webkit-transform: rotate(-90deg);
     -moz-transform: rotate(-90deg);
     -ms-transform: rotate(-90deg);

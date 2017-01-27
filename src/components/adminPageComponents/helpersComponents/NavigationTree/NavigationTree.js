@@ -22,7 +22,7 @@ export default class NavigationTree extends React.Component {
               key={node.href}
               nodeLink={link}
               collapsed={node.collapsed}
-              className={hasNestedChildren ? '' : 'tree-view_arrow--no-nested-elements'}>
+              className={hasNestedChildren ? '' : 'tree-view__arrow--no-nested-elements'}>
               {hasNestedChildren ? this.renderTree(node.childNodes) : null}
             </TreeNode>
           );
@@ -32,7 +32,6 @@ export default class NavigationTree extends React.Component {
   }
 
   render() {
-
     return (
       <nav className="navigation-tree-links">
         {this.renderTree(this.props.treeData)}
