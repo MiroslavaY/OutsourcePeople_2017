@@ -9,7 +9,7 @@ const APPLICATION_ROUTES = (
   <Router history={browserHistory}>
     <Route path="/" component={MainPage}/>
     <Route path="/admin" component={AdminPage}>
-      <IndexRedirect to="/admin/awards"/>
+      <IndexRedirect to="/admin/speakers"/>
       <Route path="/admin/:entity" component={ManagePanel}/>
       <Route path="/admin/:entity/edit" component={ManagePanel}/>
     </Route>

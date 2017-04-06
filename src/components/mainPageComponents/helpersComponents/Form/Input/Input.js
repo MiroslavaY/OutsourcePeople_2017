@@ -12,9 +12,9 @@ export default class Input extends React.Component {
       placeholder,
       required,
     } = this.props.settings;
-
     const className = this.props.className;
     const handler = this.props.handler;
+
     return (
       <label className={`input-component input-component__label ${className}`}>
         {labelText}

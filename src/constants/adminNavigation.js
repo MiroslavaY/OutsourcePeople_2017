@@ -1,3 +1,4 @@
+/*
 export default [
   {
     name: 'Awards',
@@ -206,4 +207,33 @@ export default [
     href: '/admin/documents',
     collapsed: true,
   },
+];*/
+
+
+export default [{
+  name: 'Speakers',
+  href: '/admin/speakers',
+  collapsed: true,
+},{
+  name: 'Participants',
+  href: '/admin/participants',
+  collapsed: true,
+},{
+  name: 'Orders',
+  href: '/admin/orders',
+  collapsed: true,
+},{
+  name: 'Schedule line',
+  href: '/admin/schedule',
+  collapsed: true,
+},{
+  name: 'Speeches',
+  href: '/admin/speeches',
+  collapsed: true,
+},{
+  name: 'Discussions panel',
+  href: '/admin/discussions',
+  collapsed: true,
+},
 ];
+

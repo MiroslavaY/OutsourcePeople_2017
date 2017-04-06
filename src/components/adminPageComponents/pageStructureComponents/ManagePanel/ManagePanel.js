@@ -54,7 +54,7 @@ export default class ManagePanel extends React.Component {
     return (
       <section className="admin-manage-panel">
         <h1 className={animated}>{this.state.entity && this.state.entity.name}</h1>
-        <TabContainer entity={this.state.entity}/>
+        <TabContainer entity={this.props.paramsEntity}/>
       </section>
     );
   }
